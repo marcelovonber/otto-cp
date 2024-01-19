@@ -81,8 +81,8 @@ def generate_txt(json_data):
 def main():
     # mas de un archivo
     # descarga del zip creado de facturapi
-    st.title("XML Content Extractor")
-    uploaded_files = st.file_uploader("Upload XML file",
+    st.title("CP Error OttoDist")
+    uploaded_files = st.file_uploader("Sube aqui el archivo XML con error generado en Dynamics",
                                       type=".xml",
                                       accept_multiple_files=True)
 
